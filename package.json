@@ -1,0 +1,31 @@
+{
+    "name": "js-advanced",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+        "prettier": "^2.2.1"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Sineastra/JS-Advanced-January-2021.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Sineastra/JS-Advanced-January-2021/issues"
+    },
+    "homepage": "https://github.com/Sineastra/JS-Advanced-January-2021#readme",
+    "prettier": {
+        "arrowParens": "avoid",
+        "endOfLine": "lf",
+        "htmlWhitespaceSensitivity": "css",
+        "semi": false,
+        "tabWidth": 4,
+        "printWidth": 80
+    }
+}
