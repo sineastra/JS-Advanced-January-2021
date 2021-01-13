@@ -22,10 +22,11 @@
     "homepage": "https://github.com/Sineastra/JS-Advanced-January-2021#readme",
     "prettier": {
         "arrowParens": "avoid",
-        "endOfLine": "lf",
+        "endOfLine": "crlf",
         "htmlWhitespaceSensitivity": "css",
         "semi": false,
         "tabWidth": 4,
-        "printWidth": 100
+        "printWidth": 100,
+        "proseWrap": "preserve"
     }
 }
