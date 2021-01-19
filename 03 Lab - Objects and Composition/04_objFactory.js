@@ -20,15 +20,3 @@ function foo(library, orders) {
     //     return a
     // }, [])
 }
-
-const library = {
-    print: function () {
-        console.log(`${this.name} is printing a page`)
-    },
-    scan: function () {
-        console.log(`${this.name} is scanning a document`)
-    },
-    play: function (artist, track) {
-        console.log(`${this.name} is playing '${track}' by ${artist}`)
-    },
-}
