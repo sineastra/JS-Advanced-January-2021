@@ -1,0 +1,3 @@
+function extract(content) {
+
+}

@@ -1,0 +1,3 @@
+function extractText() {
+    // TODO
+}
