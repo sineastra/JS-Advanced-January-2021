@@ -1,3 +1,0 @@
-function extractText() {
-    // TODO
-}
