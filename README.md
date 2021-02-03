@@ -13,6 +13,21 @@ _В курса "JS Advanced" ще получите задълбочени поз
 
 - <hr/>
 
+```diff
+
++ Environment Specifics
+
+Please, be aware that every JS environment may behave differently when executing code. Certain things that work in the browser are not supported in Node.js, which is the environment used by Judge.
+The following actions are NOT supported:
+•	.forEach() with NodeList (returned by querySelector() and querySelectorAll())
+•	.forEach() with HTMLCollection (returned by getElementsByClassName() and element.children)
+•	Using the spread-operator (...) to convert a NodeList into an array
+
+If you want to perform these operations, you may use Array.from() to first convert the collection into an array. 
+
+
+```
+
 - <h4><i>Completed</i></h4>
 
 - [x] [01. Advanced Syntax Functions & Statements](01%20Advanecd%20Syntax%20Functions%20and%20Statements)
