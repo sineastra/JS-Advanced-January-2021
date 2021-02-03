@@ -1,9 +1,8 @@
-[![ForTheBadge built-with-swag](http://ForTheBadge.com/images/badges/built-with-swag.svg)](https://GitHub.com/Naereen/)
-&nbsp;&nbsp;&nbsp;&nbsp;
 [![ForTheBadge powered-by-electricity](http://ForTheBadge.com/images/badges/powered-by-electricity.svg)](http://ForTheBadge.com)
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
-
+&nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
 
 <h1 align="center">JavaScript Advanced</h1>
 <h6 align="center">Every Lab and Excercise Homework for the Softuni JavaScript Advanced course. January 2021</h6>
