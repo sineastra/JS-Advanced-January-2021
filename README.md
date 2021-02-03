@@ -2,7 +2,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;
 [![ForTheBadge powered-by-electricity](http://ForTheBadge.com/images/badges/powered-by-electricity.svg)](http://ForTheBadge.com)
 &nbsp;&nbsp;&nbsp;&nbsp;
-[![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](http://ForTheBadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
 
 
 <h1 align="center">JavaScript Advanced</h1>
