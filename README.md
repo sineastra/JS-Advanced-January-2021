@@ -57,9 +57,9 @@ _В курса "JS Advanced" ще получите задълбочени поз
 ... *nothing here... yet*
 
 
-[![GitHub stars](https://img.shields.io/github/stars/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Sineastra/JS-Advanced-January-2021/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/Sineastra/JS-Advanced-January-2021.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Sineastra/JS-Advanced-January-2021/stargazers)
 &nbsp;&nbsp;&nbsp;&nbsp;
-[![GitHub forks](https://img.shields.io/github/forks/Naereen/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/Sineastra/JS-Advanced-January-2021/network/members)
+[![GitHub forks](https://img.shields.io/github/forks/Sineastra/JS-Advanced-January-2021.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/Sineastra/JS-Advanced-January-2021/network/members)
 &nbsp;&nbsp;&nbsp;&nbsp;
 [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 &nbsp;&nbsp;&nbsp;&nbsp;
