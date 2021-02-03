@@ -1,14 +1,10 @@
-[![GitHub stars](https://img.shields.io/github/stars/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Sineastra/JS-Advanced-January-2021/stargazers)
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Naereen/badges)
-&nbsp;&nbsp;&nbsp;&nbsp;
 [![ForTheBadge built-with-swag](http://ForTheBadge.com/images/badges/built-with-swag.svg)](https://GitHub.com/Naereen/)
 &nbsp;&nbsp;&nbsp;&nbsp;
 [![ForTheBadge powered-by-electricity](http://ForTheBadge.com/images/badges/powered-by-electricity.svg)](http://ForTheBadge.com)
 &nbsp;&nbsp;&nbsp;&nbsp;
-[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/lord.of.light.0002%40gmail.com)
+[![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](http://ForTheBadge.com)
+
+
 <h1 align="center">JavaScript Advanced</h1>
 <h6 align="center">Every Lab and Excercise Homework for the Softuni JavaScript Advanced course. January 2021</h6>
 
@@ -59,3 +55,15 @@ _В курса "JS Advanced" ще получите задълбочени поз
 
 - <h3><i>Completed Exams</i></h3>
 ... *nothing here... yet*
+
+
+[![GitHub stars](https://img.shields.io/github/stars/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Sineastra/JS-Advanced-January-2021/stargazers)
+&nbsp;&nbsp;&nbsp;&nbsp;
+[![GitHub forks](https://img.shields.io/github/forks/Naereen/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/Sineastra/JS-Advanced-January-2021/network/members)
+&nbsp;&nbsp;&nbsp;&nbsp;
+[![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+&nbsp;&nbsp;&nbsp;&nbsp;
+[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+&nbsp;&nbsp;&nbsp;&nbsp;
+[![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/lord.of.light.0002%40gmail.com)
+&nbsp;&nbsp;&nbsp;&nbsp;
