@@ -1,3 +1,9 @@
+[![ForTheBadge powered-by-electricity](http://ForTheBadge.com/images/badges/powered-by-electricity.svg)](http://ForTheBadge.com)
+&nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
+&nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
+
 <h1 align="center">JavaScript Advanced</h1>
 <h6 align="center">Every Lab and Excercise Homework for the Softuni JavaScript Advanced course. January 2021</h6>
 
@@ -17,13 +23,15 @@ _В курса "JS Advanced" ще получите задълбочени поз
 
 + Environment Specifics
 
-Please, be aware that every JS environment may behave differently when executing code. Certain things that work in the browser are not supported in Node.js, which is the environment used by Judge.
-The following actions are NOT supported:
-•	.forEach() with NodeList (returned by querySelector() and querySelectorAll())
-•	.forEach() with HTMLCollection (returned by getElementsByClassName() and element.children)
-•	Using the spread-operator (...) to convert a NodeList into an array
+# Please, be aware that every JS environment may behave differently when executing code. 
+# Certain things that work in the browser are not supported in Node.js, which is the environment used by Judge.
 
-If you want to perform these operations, you may use Array.from() to first convert the collection into an array. 
+-The following actions are NOT supported:
+-•	.forEach() with NodeList (returned by querySelector() and querySelectorAll())
+-•	.forEach() with HTMLCollection (returned by getElementsByClassName() and element.children)
+-•	Using the spread-operator (...) to convert a NodeList into an array
+
+# If you want to perform these operations, you may use Array.from() to first convert the collection into an array.
 
 
 ```
@@ -46,3 +54,15 @@ If you want to perform these operations, you may use Array.from() to first conve
 
 - <h3><i>Completed Exams</i></h3>
 ... *nothing here... yet*
+
+
+[![GitHub stars](https://img.shields.io/github/stars/Sineastra/JS-Advanced-January-2021.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Sineastra/JS-Advanced-January-2021/stargazers)
+&nbsp;&nbsp;&nbsp;&nbsp;
+[![GitHub forks](https://img.shields.io/github/forks/Sineastra/JS-Advanced-January-2021.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/Sineastra/JS-Advanced-January-2021/network/members)
+&nbsp;&nbsp;&nbsp;&nbsp;
+[![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+&nbsp;&nbsp;&nbsp;&nbsp;
+[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+&nbsp;&nbsp;&nbsp;&nbsp;
+[![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/lord.of.light.0002%40gmail.com)
+&nbsp;&nbsp;&nbsp;&nbsp;
