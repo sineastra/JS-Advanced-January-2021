@@ -15,6 +15,7 @@ function addItem() {
     const deleteLink = eFactory("a", "[Delete]")
     deleteLink.href = "#"
     deleteLink.addEventListener("click", e => e.target.parentNode.remove())
+
     item.appendChild(deleteLink)
 
     data.list.appendChild(item)
