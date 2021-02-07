@@ -42,10 +42,10 @@ _В курса "JS Advanced" ще получите задълбочени поз
 - [x] [02. Arrays & Nested Arrays](02%20Arrays%20and%20Nested%20Arrays)
 - [x] [03. Objects & Composition](03%20Objects%20and%20Composition)
 - [x] [04. DOM Introduction](04%20DOM%20Introduction)
+- [x] [05. DOM Events](05%20DOM%20Events)
 
 - <h4><i>TODO...</i></h4>
 
-- [ ] 05. DOM Events
 - [ ] 06. Advanced Functions
 - [ ] 07. Unit Testing & Error Handling
 - [ ] 08. Classes
