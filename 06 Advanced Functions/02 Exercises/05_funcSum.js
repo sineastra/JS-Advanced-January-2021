@@ -3,9 +3,9 @@ function foo(n) {
 
     function recursive(x) {
         temp += x
-        recursive.toString = () => temp
 
         return recursive
     }
+    recursive.toString = () => temp
     return recursive(n)
 }
