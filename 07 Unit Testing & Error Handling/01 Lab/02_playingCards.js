@@ -26,3 +26,5 @@ function cardFactory (f, s) {
 
     return card
 }
+
+module.exports = { cardFactory }
