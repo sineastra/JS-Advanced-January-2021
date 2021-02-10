@@ -8,3 +8,5 @@ class Person {
 
     toString = () => `${this.firstName} ${this.lastName} (age: ${this.age}, email: ${this.email})`
 }
+
+module.exports = Person
