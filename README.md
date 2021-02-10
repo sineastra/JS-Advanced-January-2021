@@ -43,10 +43,10 @@ _В курса "JS Advanced" ще получите задълбочени поз
 - [x] [03. Objects & Composition](03%20Objects%20and%20Composition)
 - [x] [04. DOM Introduction](04%20DOM%20Introduction)
 - [x] [05. DOM Events](05%20DOM%20Events)
+- [x] [06. Advanced Functions](06%20Advanced%20Functions)
 
 - <h4><i>TODO...</i></h4>
 
-- [ ] 06. Advanced Functions
 - [ ] 07. Unit Testing & Error Handling
 - [ ] 08. Classes
 - [ ] 09. Prototype & Inheritance
