@@ -6,7 +6,7 @@ describe(`testing calculator functionality`, () => {
         expect(typeof createCalculator()).to.equals('object')
     })
     it(`return obj has method add`, () => {
-        expect(typeof createCalculator().add).to.equals('function')
+        expect(createCalculator().add()).to.equals('yes')
     })
     it(`return obj has method subtract`, () => {
         expect(typeof createCalculator().subtract).to.equals('function')
