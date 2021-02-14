@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #234465;
+    font-family: 'MuseoModerno', cursive;
+}
+
+main.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.section-view{
+    border:1px solid #234465;
+    border-radius: 15px;
+    height: 80vh;
+    flex-grow: 1;
+    margin: 1%;
+}
+
+.section-view h1{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.actions{
+    width: 100%;
+}
+
+.action{
+    margin: 1%;
+}
+
+.action h3{
+    border-bottom: 2px solid #FFA000;
+    cursor: pointer;
+}
+
+.action form {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 18px;
+}
+
+.action form input{
+    border: none;
+    border-bottom: 1px solid #234465;
+    width: 30%;
+    color: #FFA000;
+    padding-left: 1%;
+}
+
+.action form label{
+    width: 15%;
+    border-bottom: 1px solid #234465;
+}
+
+select{
+    border:none;
+    border-bottom:1px solid #234465;
+    width: 31%;
+    color: #FFA000
+}
+
+.action form .form-control{
+    padding: 1%;
+    display: flex;
+}
+
+
+.action form button {
+    padding: 1%;
+    width: 10%;
+}
+
+.action form button:hover{
+    color: #FFA000;
+}
+
+.module ul{
+    padding-left: 5%;
+}
+
+ul li ul li{
+    vertical-align: top;
+}
+
+ul li ul li span {
+    margin-left: 1%;
+    vertical-align: bottom;
+}
+
+.module h3{
+    background-color: #FFA000;
+}
+
+.lecture-img{
+    max-width: 35px;
+    vertical-align: bottom;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: circle;
+}
+
+.red {
+    background-color: red;
+    padding: 0.3rem 0.5rem;
+    margin: 0.2rem;
+}

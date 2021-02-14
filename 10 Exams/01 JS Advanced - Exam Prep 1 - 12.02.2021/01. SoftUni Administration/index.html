@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoftUni Administration</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./index.js"></script>
+    <script>window.addEventListener('DOMContentLoaded', () => { solve(); });</script>
+</head>
+
+<body>
+    <main class="container">
+        <section class="user-view section-view">
+            <h1>Trainings</h1>
+            <div class="modules">
+            </div>
+        </section>
+        <section class="admin-view section-view">
+            <h1>Administration</h1>
+            <div class="actions">
+                <div class="action">
+                    <h3>Add New Lecture</h3>
+                    <form>
+                        <div class="form-control">
+                            <label>
+                                Lecture name:
+                            </label>
+                            <input type="text" name="lecture-name">
+                        </div>
+                        <div class="form-control">
+                            <label>
+                                Date:
+                            </label>
+                            <input type="datetime-local" name="lecture-date">
+                        </div>
+                        <div class="form-control">
+                            <label>Module:</label>
+                            <select name="lecture-module">
+                                <option value="Select module" selected>Select module...</option>
+                                <option value="Basics">Basics</option>
+                                <option value="Fundamentals">Fundamentals</option>
+                                <option value="Advanced">Advanced</option>
+                                <option value="DB">DB</option>
+                                <option value="Web">Web</option>
+                            </select>
+                        </div>
+                        <div class="form-control">
+                            <button>Add</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
