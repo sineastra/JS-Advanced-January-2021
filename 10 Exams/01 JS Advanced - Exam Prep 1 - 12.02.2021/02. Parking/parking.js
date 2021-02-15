@@ -2,65 +2,62 @@
 
 class Parking {
 	constructor (c) {
-		this.capacity = Number(c)
+		this.capacity = c
 		this.vehicles = []
 	}
 
-	addCar (c, n) {
+	findByCarNumber = n => this.vehicles.find(x => x.carNumber === n)
+
+	addCar (carModel, carNumber) {
 		if (this.capacity - 1 < 0) throw new Error('Not enough parking space.')
+
 		this.capacity -= 1
+		this.vehicles.push({ carModel, carNumber, payed: false })
 
-		this.vehicles.push({
-			carModel: `${c}`,
-			carNumber: `${n}`,
-			payed: false
-		})
-
-		return `The ${c}, with a registration number ${n}, parked.`
+		return `The ${carModel}, with a registration number ${carNumber}, parked.`
 	}
 
-	removeCar (carNumber) {
-		const i = this.vehicles.findIndex(x => x.carNumber === carNumber)
-		if (i === -1)
+	removeCar (c) {
+		const car = this.findByCarNumber(c)
+
+		if (car === undefined)
 			throw new Error(`The car, you're looking for, is not found.`)
-		if (this.vehicles[i].payed === false)
-			throw new Error(
-				`${carNumber} needs to pay before leaving the parking lot.`
-			)
-		this.vehicles.splice(i, 1)
+		if (car.payed === false)
+			throw new Error(`${c} needs to pay before leaving the parking lot.`)
+		this.vehicles.splice(this.vehicles.indexOf(car), 1)
 		this.capacity += 1
 
-		return `${carNumber} left the parking lot.`
+		return `${c} left the parking lot.`
 	}
 
-	pay (carNumber) {
-		const i = this.vehicles.findIndex(x => x.carNumber === `${carNumber}`)
-		if (i === -1)
-			throw new Error(`${carNumber} is not in the parking lot.`)
-		if (this.vehicles[i].payed === true)
-			throw new Error(
-				`${carNumber}'s driver has already payed his ticket.`
-			)
+	pay (c) {
+		const car = this.findByCarNumber(c)
 
-		this.vehicles[i].payed = true
-		return `${carNumber}'s driver successfully payed for his stay.`
+		if (car === undefined)
+			throw new Error(`${c} is not in the parking lot.`)
+		if (car.payed === true)
+			throw new Error(`${c}'s driver has already payed his ticket.`)
+		car.payed = true
+
+		return `${c}'s driver successfully payed for his stay.`
 	}
+
+	sortByCarNumber = (c, c1) => c.carNumber.localeCompare(c1.carNumber)
+	printCarInfo = (c) => `${c.carModel} == ${c.carNumber} - ${c.payed
+		? `Has payed`
+		: `Not payed`}`
 
 	getStatistics (carNumber) {
-		if (! carNumber) {
+		if (carNumber === undefined) {
+
 			return `The Parking Lot has ${this.capacity} empty spots left.
-${this.vehicles.sort((a, b) =>
-					a.carNumber.localeCompare(b.carNumber.localeCompare()))
-				.map(x => `${x.carModel} == ${x.carNumber} - ${x.payed
-					? `Has payed`
-					: `Not payed`}`)
+${this.vehicles.sort(this.sortByCarNumber)
+				.map(this.printCarInfo)
 				.join('\n')}`
 		} else {
-			const car = this.vehicles.find(x => x.carNumber === carNumber)
+			const car = this.findByCarNumber(carNumber)
 
-			return `${car.carModel} == ${car.carNumber} - ${car.payed
-				? `Has payed`
-				: `Not payed`}`
+			return this.printCarInfo(car)
 		}
 	}
 }
