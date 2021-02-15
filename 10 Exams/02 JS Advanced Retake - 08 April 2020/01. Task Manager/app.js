@@ -32,7 +32,7 @@ function solve () {
 		return article
 	}
 
-	// helper functions for check for valid input,clear the input and remove whole item
+	// helper functions for - checking for valid input, - clear the input and remove whole item
 	// from the perspective of the delete button
 	const isValidInput = (arr) => arr.every(x => x !== '')
 	const clearInput = (arr) => arr.forEach(x => x.value = '')
@@ -40,7 +40,7 @@ function solve () {
 
 	// a bridge for binding
 	// it creates new article with the articleTemplFactory parameters explained above
-	// and appends it depending on section depending on the s parameter
+	// and appends it on section depending on the s parameter
 	const appendNewItem = (s, b, c, b1, c1, n, d, da) =>
 		s.appendChild(articleTemplFactory(b, c, b1, c1, n, d, da))
 
