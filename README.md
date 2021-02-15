@@ -53,7 +53,8 @@ _В курса "JS Advanced" ще получите задълбочени поз
 - [ ] 10. Workshop
 
 - <h3><i>Completed Exams</i></h3>
-... *nothing here... yet*
+- [x] [01. Exam Prep 1 - 12.02.2021](10%20Exams/01%20JS%20Advanced%20-%20Exam%20Prep%201%20-%2012.02.2021)
+- [x] [02. Retake - 08. April.2021](10%20Exams/02%20JS%20Advanced%20Retake%20-%2008%20April%202020)
 
 
 [![GitHub stars](https://img.shields.io/github/stars/Sineastra/JS-Advanced-January-2021.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Sineastra/JS-Advanced-January-2021/stargazers)
