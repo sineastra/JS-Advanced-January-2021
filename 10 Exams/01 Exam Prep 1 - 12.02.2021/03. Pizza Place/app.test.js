@@ -1,6 +1,24 @@
 const { expect } = require('chai')
 const pizzUni = require('./app')
 
+describe("tests", () => {
+
+	describe("makeAnOrder", () =>{
+		it(".orderedPizza doesn't exist", () => {
+			expect(() => pizzUni.makeAnOrder({orderedDrink: 'drink'})).to.throw('You must order at least 1 Pizza to finish the order.');
+		})
+
+		it(".orderedDrink does exist", () => {
+			expect(pizzUni.makeAnOrder({orderedPizza: 'pizza', orderedDrink: 'drink'})).to.equal("You just ordered pizza and drink.");
+		})
+
+		it(".ordered drink does not exist", () => {
+			expect(pizzUni.makeAnOrder({orderedPizza: 'pizza'})).to.equal(`You just ordered pizza`);
+		})
+	})
+})
+
+
 describe(`testing pizzUni functionality`, () => {
 	describe(`testing .makeAnOrder() method`, () => {
 		it(

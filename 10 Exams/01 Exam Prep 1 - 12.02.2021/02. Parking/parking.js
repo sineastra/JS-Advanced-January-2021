@@ -1,3 +1,5 @@
+// TODO: refactor the class
+
 class Parking {
 	constructor (c) {
 		this.capacity = c
