@@ -45,17 +45,15 @@ _В курса "JS Advanced" ще получите задълбочени поз
 - [x] [05. DOM Events](05%20DOM%20Events)
 - [x] [06. Advanced Functions](06%20Advanced%20Functions)
 - [x] [07. Unit Testing & Error Handling](07%20Unit%20Testing%20&%20Error%20Handling)
+- [x] [08. Classes](08%20Classes)
 
-- <h4><i>TODO...</i></h4>
-
-- [ ] 08. Classes
-- [ ] 09. Prototype & Inheritance
-- [ ] 10. Workshop
 
 - <h3><i>Completed Exams</i></h3>
 - [x] [01. Exam Prep 1 - 12.02.2021](10%20Exams/01%20JS%20Advanced%20-%20Exam%20Prep%201%20-%2012.02.2021)
 - [x] [02. Retake - 08. April.2021](10%20Exams/02%20JS%20Advanced%20Retake%20-%2008%20April%202020)
-
+- [x] [03 Retake Exam - 10.12.2019](10%20Exams/03%20Retake%20Exam%20-%2010.12.2019)
+- [x] [04 Retake Exam - 08.04.2020](10%20Exams/04%20Retake%20Exam%20-%2008.04.2020)
+- [x] [05 Retake Exam - 30.08.2018](10%20Exams/05%20Retake%20Exam%20-%2030.08.2018)
 
 [![GitHub stars](https://img.shields.io/github/stars/Sineastra/JS-Advanced-January-2021.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Sineastra/JS-Advanced-January-2021/stargazers)
 &nbsp;&nbsp;&nbsp;&nbsp;
